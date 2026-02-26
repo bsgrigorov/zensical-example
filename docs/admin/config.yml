@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 
+site_url: https://bsgrigorov.github.io/zensical-example/
+
 backend:
   name: github
   repo: bsgrigorov/zensical-example

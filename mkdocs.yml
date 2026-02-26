@@ -26,7 +26,7 @@ plugins:
       type: date
       locale: en
       enable_creation_date: false
-      strict: false   # INFO instead of WARNING when no git log (avoids abort with mkdocs strict)
+      strict: false # INFO instead of WARNING when no git log (avoids abort with mkdocs strict)
       fallback_to_build_date: true
   - minify:
       minify_html: !ENV [MKDOCS_MINIFY, false]
