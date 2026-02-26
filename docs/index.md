@@ -1,16 +1,16 @@
 # Welcome
 
-This site is built with [Zensical](https://zensical.org/).
+This site is built with [Zensical](https://zensical.org/). Test
 
 ## Quick links
 
-- **[Getting started](getting-started.md)** – how to serve and build the site
-- **[Showcase](showcase/admonitions.md)** – demo pages for admonitions, tabs, code blocks, lists, and tables
+- [**Getting started**](getting-started.md) – how to serve and build the site
+- [**Showcase**](showcase/admonitions.md) – demo pages for admonitions, tabs, code blocks, lists, and tables
 
 ## Commands
 
-| Command              | Description                          |
-| -------------------- | ------------------------------------ |
+| Command | Description |
+| --- | --- |
 | `uv run zensical serve` | Start the live-reloading dev server |
-| `uv run zensical build` | Build static files into `site/`     |
-| `uv run zensical -h`    | Show help                            |
+| `uv run zensical build` | Build static files into `site/` |
+| `uv run zensical -h` | Show help |
