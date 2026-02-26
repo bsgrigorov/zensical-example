@@ -1,10 +1,11 @@
 ---
+title: Material for MkDocs – Insider features review
 ---
 # Material for MkDocs – Insider features review
 
 This doc reviews the listed Material for MkDocs **Insiders** features and whether any support **auth gating** (restricting which content is shown to which users).
 
----
+***
 
 ## Auth gating: none
 
@@ -15,7 +16,7 @@ This doc reviews the listed Material for MkDocs **Insiders** features and whethe
 
 So: **no Insider feature can “restrict which content is shown to which users” by itself.** Use Insiders for better UX and build-time features; add auth at the hosting/proxy layer if you need gating.
 
----
+***
 
 ## Feature-by-feature review
 
@@ -42,7 +43,7 @@ So: **no Insider feature can “restrict which content is shown to which users�
 | **Typeset plugin** | Preserve rich formatting (code, icons, emojis) in nav and TOC instead of plain text. | No | ✅ When nav/TOC titles use code or icons. |
 | **Privacy plugin: external links** | Annotate external links (e.g. `rel="noopener"`, `target="_blank"`) for security and behavior. | No | ✅ Recommended if you have many external links. |
 
----
+***
 
 ## Which ones are actually useful?
 
@@ -59,7 +60,7 @@ Below is what each *category* means and when it’s worth using.
 
 **Verdict:** Breadcrumbs and instant previews are the most broadly useful. Prefetching and “stay on page” matter mainly for large or multilingual sites.
 
----
+***
 
 ### Better code UX
 
@@ -70,7 +71,7 @@ Below is what each *category* means and when it’s worth using.
 
 **Verdict:** Code range selection is very useful for any code-heavy or tutorial-style docs. Custom selectors are a power-user feature when you lean heavily on annotations.
 
----
+***
 
 ### Blog
 
@@ -82,7 +83,7 @@ Below is what each *category* means and when it’s worth using.
 
 **Verdict:** Only relevant if you *use the blog plugin* (date-based posts). If your site is “docs only” and you don’t have a blog section, skip these.
 
----
+***
 
 ### Tags
 
@@ -94,7 +95,7 @@ Below is what each *category* means and when it’s worth using.
 
 **Verdict:** Useful when you already use or want *tag-based discovery* (e.g. “show me everything tagged Tutorial”). Nested and shadow tags help at scale; advanced settings when you need different listing behavior.
 
----
+***
 
 ### Fancy nav (typeset / rich nav)
 
@@ -102,7 +103,7 @@ Below is what each *category* means and when it’s worth using.
 
 **Verdict:** Only useful when your *page titles* use code, icons, or emojis and you want that to appear in the sidebar/TOC. Most docs use plain titles, so this is optional.
 
----
+***
 
 ## Quick wins (no blog/tags)
 
@@ -116,7 +117,7 @@ For a typical **docs-only** site, the most generally useful Insiders features ar
 
 If you add a **blog** or **tags** section, then pinned posts, author profiles, nested/shadow tags, and the corresponding advanced settings become relevant.
 
----
+***
 
 ## References
 

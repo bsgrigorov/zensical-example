@@ -1,5 +1,7 @@
 ---
+title: Getting started
 ---
+
 # Getting started
 
 ## Serve locally (with live reload)
@@ -24,8 +26,8 @@ Output is written to the `site/` directory. Deploy that folder to any static hos
 
 ## Project layout
 
-| Path         | Purpose                    |
-| ------------ | -------------------------- |
+| Path | Purpose |
+| --- | --- |
 | `mkdocs.yml` | Zensical config (MkDocs-compatible) |
-| `docs/`      | Markdown source for pages  |
-| `site/`      | Generated output (after build) |
+| `docs/` | Markdown source for pages |
+| `site/` | Generated output (after build) |

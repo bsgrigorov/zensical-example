@@ -1,4 +1,5 @@
 ---
+title: Content tabs
 ---
 # Content tabs
 

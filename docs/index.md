@@ -1,8 +1,10 @@
 ---
+title: Welcome
 ---
+
 # Welcome
 
-This site is built with [Zensical](https://zensical.org/). Test
+This site is built with [Zensical](https://zensical.org/). Test31413
 
 ## Quick links
 

@@ -1,4 +1,5 @@
 ---
+title: Data & tables
 ---
 # Data & tables
 

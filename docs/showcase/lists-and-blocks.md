@@ -1,4 +1,5 @@
 ---
+title: Lists & blocks
 ---
 # Lists & blocks
 
@@ -57,6 +58,6 @@ Useful for H~2~O, x^2^, or ==key terms==.
 
 Three or more hyphens, asterisks, or underscores:
 
----
+***
 
 Above is a horizontal rule.
