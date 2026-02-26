@@ -1,0 +1,5 @@
+/* Footer: same background as main content (light and dark) */
+.md-footer,
+.md-footer-meta {
+  background-color: var(--md-default-bg-color) !important;
+}

@@ -1,0 +1,9 @@
+[project]
+name = "mydocs-zensical"
+version = "0.1.0"
+description = "Documentation site built with Zensical"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "zensical>=0.0.23",
+]

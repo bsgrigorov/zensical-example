@@ -1,0 +1,86 @@
+# Zensical – static site generator
+# https://zensical.org/
+
+site_name: My Docs
+site_description: Documentation built with Zensical
+# Production URL (GitHub Pages: https://<user>.github.io/<repo>/)
+site_url: https://bsgrigorov.github.io/zensical-example/
+
+# Explicit navigation (recommended; order and labels under your control)
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Insider features review: insider-features-review.md
+  - Showcase:
+      - Admonitions: showcase/admonitions.md
+      - Content tabs: showcase/tabs.md
+      - Code blocks: showcase/code-blocks.md
+      - Lists & blocks: showcase/lists-and-blocks.md
+      - Data & tables: showcase/data-and-tables.md
+
+# Plugins (Zensical maps MkDocs plugin names to its modules)
+plugins:
+  - search:
+      lang: en
+  - git-revision-date-localized:
+      type: date
+      locale: en
+      enable_creation_date: false
+      strict: false   # INFO instead of WARNING when no git log (avoids abort with mkdocs strict)
+      fallback_to_build_date: true
+  - minify:
+      minify_html: !ENV [MKDOCS_MINIFY, false]
+
+# Markdown extensions (compatible with Zensical)
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+# Zensical theme: defaults like zensical.org + top-level tabs
+theme:
+  variant: modern
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: lucide/moon
+        name: Switch to light mode
+  # Tabs on top (top-level nav) + full nav tree in left sidebar
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+    - navigation.path
+    - navigation.top
+
+# Repo link and "Edit this page"
+repo_url: https://github.com/bsgrigorov/zensical-example
+repo_name: bsgrigorov/zensical-example
+edit_uri: edit/main/docs/
+
+# Footer same color as main (see docs/stylesheets/extra.css)
+extra_css:
+  - stylesheets/extra.css
+
+# Footer
+copyright: Copyright &copy; 2026
