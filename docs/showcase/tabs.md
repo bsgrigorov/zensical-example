@@ -1,3 +1,5 @@
+---
+---
 # Content tabs
 
 Group alternative content (e.g. different languages or options) with **content tabs**. Requires `pymdownx.superfences` and `pymdownx.tabbed`. With `content.tabs.link` enabled, tabs with the same label stay in sync across the site.

@@ -1,3 +1,5 @@
+---
+---
 # Lists & blocks
 
 This page showcases **definition lists**, **footnotes**, **abbreviations**, and **formatting** (caret, mark, tilde from pymdown-extensions).

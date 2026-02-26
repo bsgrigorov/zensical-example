@@ -1,3 +1,5 @@
+---
+---
 # Data & tables
 
 Standard Markdown tables and `attr_list` for styling. The **search** plugin indexes table content.

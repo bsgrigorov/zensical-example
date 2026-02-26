@@ -1,3 +1,5 @@
+---
+---
 # Code blocks
 
 Syntax highlighting and the **copy** button are provided by the theme (feature `content.code.copy`). Minification is handled by the `mkdocs-minify-plugin`.

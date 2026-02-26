@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: bsgrigorov/zensical-example
+  branch: main
+
+media_folder: docs/images
+public_folder: images
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home
+        file: docs/index.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+      - name: getting-started
+        label: Getting Started
+        file: docs/getting-started.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+      - name: insider-features-review
+        label: Insider Features Review
+        file: docs/insider-features-review.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+
+  - name: showcase
+    label: Showcase
+    files:
+      - name: admonitions
+        label: Admonitions
+        file: docs/showcase/admonitions.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+      - name: code-blocks
+        label: Code Blocks
+        file: docs/showcase/code-blocks.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+      - name: data-tables
+        label: Data & Tables
+        file: docs/showcase/data-and-tables.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+      - name: lists-blocks
+        label: Lists & Blocks
+        file: docs/showcase/lists-and-blocks.md
+        fields:
+          - { label: Body, name: body, widget: markdown }
+      - name: tabs
+        label: Content Tabs
+        file: docs/showcase/tabs.md
+        fields:
+          - { label: Body, name: body, widget: markdown }

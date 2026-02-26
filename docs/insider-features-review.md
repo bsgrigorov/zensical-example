@@ -1,3 +1,5 @@
+---
+---
 # Material for MkDocs – Insider features review
 
 This doc reviews the listed Material for MkDocs **Insiders** features and whether any support **auth gating** (restricting which content is shown to which users).
